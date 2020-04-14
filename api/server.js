@@ -1,5 +1,7 @@
 const express = require("express");
 
+const DataRouter = require("../data/router.js");
+
 const server = express();
 
 server.use(express.json());
